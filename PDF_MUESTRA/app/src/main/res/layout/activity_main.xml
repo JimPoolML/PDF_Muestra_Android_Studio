@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="appjpm4everyone.pdf_muestra.MainActivity">
+
+    <Button
+    android:id="@+id/btnPDFGENERAR"
+    android:layout_marginTop="20dp"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Crear PDF"
+    android:onClick="ClickPDF"
+    />
+
+    <Button
+        android:id="@+id/btnPDFLOCAL"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PDF LOCAL"
+        android:onClick="ClickPDF"
+        />
+
+    <Button
+        android:id="@+id/btnPDFEXT"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PDF Externo"
+        android:onClick="ClickPDF"
+        />
+
+</LinearLayout>
